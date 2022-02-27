@@ -3015,7 +3015,7 @@ header h6+p {
 	-webkit-flex-direction: row;
 	-ms-flex-direction: row;
 	flex-direction: row;
-	min-height: 22.5em;
+	min-height: 17.5em;
 }
 
 body.is-ie .spotlights>section {
@@ -3259,15 +3259,15 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-	background-color: #5e42a6;
+	/* background-color: #5e42a6; */
 }
 
 .wrapper.style1-alt {
-	background-color: #493382;
+	/* background-color: #493382; */
 }
 
 .wrapper.style2 {
-	background-color: #5052b5;
+	/* background-color: #5052b5; */
 }
 
 .wrapper.style2-alt {
@@ -3906,6 +3906,9 @@ body.is-preload #sidebar nav ul li {
 @media screen and (max-width: 980px) {
 
 	#intro p br {
+		display: none;
+	}
+	.photo{
 		display: none;
 	}
 
