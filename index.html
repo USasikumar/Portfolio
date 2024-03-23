@@ -17,6 +17,7 @@
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-X4E1Y2W22Q"></script>
 	<script>
@@ -26,6 +27,22 @@
 
 		gtag('config', 'G-X4E1Y2W22Q');
 	</script>
+	<style>
+		.badge {
+			background-color: #312450;
+			color: rgba(255, 255, 255, 0.55);
+			padding: 4px 12px;
+			text-align: center;
+			border-radius: 14px;
+			border: 3px solid rgba(255, 255, 255, 0.55);
+			font-size: 1.30rem
+		}
+
+		.badge:hover {
+			color: white;
+			border: 3px solid white;
+		}
+	</style>
 </head>
 
 <body class="is-preload">
@@ -35,7 +52,7 @@
 		<div class="inner">
 			<nav>
 				<ul>
-					<li><a href="#intro">Welcome</a></li>
+					<li><a href="#intro">Who I am</a></li>
 					<li><a href="#one">Projects</a></li>
 					<li><a href="#two">Technical Skills</a></li>
 					<li><a href="#three">Get in touch</a></li>
@@ -52,19 +69,38 @@
 			<div class="inner" id="first_impression">
 				<div>
 					<h1 id="name">Ujwal Sasikumar</h1>
-					<p>Full Stack Software Developer</p>
-					<p>Love to code like painting the Mona Lisa.</p>
-					<h3>Social</h3>
-					<ul class="icons">
-						<li><a target="_blank" href="https://github.com/USasikumar" class="icon brands fa-github"><span
-									class="label">GitHub</span></a>
-						<li><a target="_blank" href="https://www.linkedin.com/in/ujwal-sasikumar-9500a1109/"
-								class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-						<li><a target="_blank" href="https://leetcode.com/Ujwal_S/">LeetCode<span class="label">LeetCode</span></a></li>
-						<li><a target="_blank" href="https://www.instagram.com/ujwalsasikumar/"
-								class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						</li>
-					</ul>
+					<p style="margin-bottom: 2px;">Full Stack Software Developer</p>
+					<p style="font-size: 1.25rem;">5+ Years Exp. | MERN stack | MEAN stack | Frontend Backend Framework
+						and languages | DevOps | Azure and AWS cloud experience | NIT & Conestoga College Ontario Grad
+						GPA: 3.78</p>
+					<div style="display: flex; justify-content: flex-start; gap: 10%;    flex-wrap: wrap;">
+						<div>
+							<h3>Social</h3>
+							<ul class="icons">
+								<li><a target="_blank" href="https://github.com/USasikumar"
+										class="icon brands fa-github"><span class="label">GitHub</span></a>
+								<li><a target="_blank" href="https://www.linkedin.com/in/ujwal-sasikumar-9500a1109/"
+										class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a style="font-size: 1.25rem;" target="_blank"
+										href="https://leetcode.com/Ujwal_S/">LeetCode<span
+											class="label">LeetCode</span></a></li>
+								<li><a target="_blank" href="https://www.instagram.com/ujwalsasikumar/"
+										class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+								</li>
+							</ul>
+						</div>
+						<div>
+							<h3>Email</h3>
+							<p><a style="font-size: 1.25rem;"
+									href="mailto:ujusasikumar@gmail.com">ujusasikumar@gmail.com</a></p>
+						</div>
+						<div>
+							<h3>Phone</h3>
+							<p><a style="font-size: 1.25rem;" href="tel:+4733378901">+1 647 869 7805</a></p>
+						</div>
+					</div>
+					<h3><a target="_blank" href="https://arxiv.org/abs/2312.03715"><span class="badge label">Resarch
+								Publication <i class="bi bi-box-arrow-up-right"></i></span></a></h3>
 				</div>
 				<div class="photo">
 					<img height="700" src="images/profile_pic.jpg" alt="" data-position="center center" />
@@ -81,8 +117,7 @@
 						<h3>Connectify: Social network build on MERN stack</h3>
 						<p>enterprise level Social Network application build completely on MERN stack</p>
 						<ul class="actions">
-							<li><a target="_blank"
-									href="https://github.com/USasikumar/MERN-stack-social-network"
+							<li><a target="_blank" href="https://github.com/USasikumar/MERN-stack-social-network"
 									class="button">View
 									Repository</a></li>
 						</ul>
@@ -90,14 +125,15 @@
 				</div>
 			</section>
 			<section>
-				<a href="#" class="image"><img src="images/mean-stacks-main.jpg" alt="" data-position="top center" /></a>
+				<a href="#" class="image"><img src="images/mean-stacks-main.jpg" alt=""
+						data-position="top center" /></a>
 				<div class="content">
 					<div class="inner">
 						<h3>MEAN stack posts application</h3>
-						<p>An post CRUD operation support application build completely on MongoDB, ExpressJS, AngularJS and NodeJS </p>
+						<p>An post CRUD operation support application build completely on MongoDB, ExpressJS, AngularJS
+							and NodeJS </p>
 						<ul class="actions">
-							<li><a target="_blank"
-									href="https://github.com/USasikumar/MEAN-stack-posts-app"
+							<li><a target="_blank" href="https://github.com/USasikumar/MEAN-stack-posts-app"
 									class="button">View
 									Repository</a></li>
 						</ul>
@@ -121,8 +157,8 @@
 				</div>
 			</section>
 			<section>
-				<a href="#" class="image"><img src="images/flask_python.png" height="10" alt="" 
-					data-position="top center" /></a>
+				<a href="#" class="image"><img src="images/flask_python.png" height="10" alt=""
+						data-position="top center" /></a>
 				<div class="content">
 					<div class="inner">
 						<h3>Flask API</h3>
@@ -214,10 +250,12 @@
 						<section>
 							<span class="icon solid major fa-tools"></span>
 							<h3>Tools</h3>
-							<p>PHPpgAdmin, Apache, Docker, Postman, GraphQL, PHPMyAdmin, pgAdmin, DevTools, AWS, Firebase Console,
-								Android Studio, MySQL Workbench, RabbitMQ, WordPress, Visual Studio, Google Analytics, Google Search Console, Adobe XD,
+							<p>PHPpgAdmin, Apache, Docker, Postman, GraphQL, PHPMyAdmin, pgAdmin, DevTools, AWS,
+								Firebase Console,
+								Android Studio, MySQL Workbench, RabbitMQ, WordPress, Visual Studio, Google Analytics,
+								Google Search Console, Adobe XD,
 								Adobe Photoshop, Adobe Illustrator
-								</p>
+							</p>
 						</section>
 					</div>
 				</div>
